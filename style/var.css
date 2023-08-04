@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Work+Sans:wght@400;700&display=swap');
+:root
+{
+    /*--font--*/
+    --root-font-size: 1rem;
+    --heading-ex-large: calc(3 * var(--root-font-size));
+    --heading-large: calc(2.8 * var(--root-font-size));
+    --heading-medium: calc(2.4 * var(--root-font-size));
+
+    --body-text: calc(1.5 * var(--root-font-size));
+
+    --btn-text: calc(2 * var(--root-font-size));
+
+    --sub-heading: calc(2 * var(--root-font-size));
+
+    --label: calc(1.6 * var(--root-font-size));
+
+
+    --font-family-1: 'Crimson Text', serif;
+    --font-family-2: 'Work Sans', sans-serif;
+
+    /*--color--*/
+    --color-primary-100: #74C69D;
+    --color-primary-75: rgba(116, 198, 157, 0.75);
+    --color-primary-50: rgba(116, 198, 157, 0.50);
+    --color-primary-25: rgba(116, 198, 157, 0.25);
+    --color-secondary-100: #FFFFFF;
+    --color-secondary-75: rgba(255, 255, 255, 0.75);
+    --color-secondary-50: rgba(255, 255, 255, 0.50);
+    --color-secondary-25: rgba(255, 255, 255, 0.25);
+    --color-dark-100: #000000;
+    --color-dark-75: rgba(33, 37, 41, 0.75);
+    --color-dark-50: rgba(33, 37, 41, 0.50);
+    --color-dark-25: rgba(33, 37, 41, 0.25);
+}

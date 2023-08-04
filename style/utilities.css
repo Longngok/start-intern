@@ -1,0 +1,431 @@
+body, .label, .sub-heading
+{
+    font-family: var(--font-family-2);
+    font-weight: 400;
+}
+
+
+.h1, h1, .h2, h2, .h3, h3, .label, .logo-text, .card__price
+{
+    font-family: var(--font-family-1);
+    font-weight: 700;
+}
+
+.logo-text
+{
+    font-size: var(--heading-ex-large);
+}
+
+.h1, h1
+{
+    font-size: var(--heading-large);
+}
+
+.h2, h2, h3, .h3
+{
+    font-size: var(--heading-medium);
+}
+
+
+.label
+{
+    font-family: var(--font-family-2);
+    font-size: var(--label);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.sub-heading
+{
+    font-size: var(--sub-heading);
+}
+
+.card__price
+{
+    font-size: 4rem;
+    font-family: var(--font-family-2);
+}
+
+.card__title
+{
+    font-size: 2.4rem;
+}
+
+/*--btn--*/
+.btn
+{
+    display: inline-block;
+    cursor: pointer;
+    font-size: var(--btn-text);
+    font-family: var(--font-family-2);
+    line-height: 1.25;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.btn--secondary
+{
+    padding: 1.3rem 4.85rem 1rem 4.75rem;
+    color: var(--color-dark-100);
+    background-color: var(--color-secondary-100);
+    border-radius: 0.5rem;
+}
+
+.btn--primary
+{
+    padding: 1.3rem 2.95rem 1rem 2.95rem;
+    color: var(--color-secondary-100);
+    background-color: var(--color-dark-100);
+}
+
+.btn--icon
+{
+    background: transparent;
+}
+
+/*--color--*/
+.c--primary
+{
+    color: var(--color-primary-100);
+}
+
+.c--secondary
+{
+    color: var(--color-secondary-100);
+}
+
+.c--secondary-75
+{
+    color: var(--color-secondary-75);
+}
+
+.c--dark-50
+{
+    color: var(--color-dark-50);
+}
+
+/*--background--*/
+.bg--primary
+{
+    background-color: var(--color-primary-100);
+}
+
+/*--position--*/
+.p-absolute
+{
+    position: absolute;
+}
+
+.p-relative
+{
+    position: relative;
+}
+
+/*--display--*/
+.d-iblock
+{
+    display: inline-block;
+}
+
+.d-none
+{
+    display: none;
+}
+
+/*--flex--*/
+.d-flex
+{
+    display: flex;
+}
+
+.d-flex--cl
+{
+    flex-direction: column;
+}
+
+.j-content--end
+{
+    justify-content: end;
+}
+
+.j-content--center
+{
+    justify-content: center;
+}
+
+.j-content--sb
+{
+    justify-content: space-between;
+}
+
+.a-item--center
+{
+    align-items: center;
+}
+
+.order-1
+{
+    order: 1;
+}
+
+/*--grid--*/
+.d-grid
+{
+    display: grid;
+}
+
+.p-item--center
+{
+    place-items: center;
+}
+
+
+/*--gap--*/
+.gap--9
+{
+    gap: 0.9rem;
+}
+
+.gap--10
+{
+    gap: 1rem;
+}
+
+.gap--11
+{
+    gap: 1.1rem;
+}
+
+.gap--15
+{
+    gap: 1.5rem;
+}
+
+.gap--16
+{
+    gap: 1.6rem;
+}
+
+.gap--17
+{
+    gap: 1.7rem;
+}
+
+.gap--18
+{
+    gap: 1.8rem;
+}
+
+.gap--20
+{
+    gap: 2rem;
+}
+
+.gap--21
+{
+    gap: 2.1rem
+}
+
+.gap--30
+{
+    gap: 3rem;
+}
+
+.gap--35
+{
+    gap: 3.5rem;
+}
+
+.gap--40
+{
+    gap: 4rem;
+}
+
+.gap--50
+{
+    gap: 5rem;
+}
+
+.gap--55
+{
+    gap: 5.5rem;
+}
+
+.gap--60
+{
+    gap: 6.012rem;
+}
+
+.gap--68
+{
+    gap: 6.8rem;
+}
+
+.gap--105
+{
+    gap: 10.5rem;
+}
+
+.gap--120
+{
+    gap: 12rem;
+}
+
+/*--padding--*/
+.pt--17
+{
+    padding-top: 1.7rem;
+}
+
+.padding--31
+{
+    padding: 3.1rem 0;
+}
+
+.pb--40
+{
+    padding-bottom: 4.039rem;
+}
+
+.pb--82
+{
+    padding-bottom: 8.287rem;
+}
+
+/*--margin--*/
+.mb--10
+{
+    margin-bottom: 1rem;
+}
+
+.mb--15
+{
+    margin-bottom: 1.5rem;
+}
+
+.mb--17
+{
+    margin-bottom: 1.7rem;
+}
+
+.mb--20
+{
+    margin-bottom: 2rem;
+}
+
+.mb--22
+{
+    margin-bottom: 2.2rem;
+}
+
+.mb--25
+{
+    margin-bottom: 2.5rem;
+}
+
+.mb--28
+{
+    margin-bottom: 2.8rem;
+}
+
+.mb--39
+{
+    margin-bottom: 3.9rem;
+}
+
+.mb--40
+{
+    margin-bottom: 4.013rem;
+}
+
+.mb--41
+{
+    margin-bottom: 4.1rem;
+}
+
+.mb--44
+{
+    margin-bottom: 4.4rem;
+}
+
+.mb--45
+{
+    margin-bottom: 4.5rem;
+}
+
+.mb--52
+{
+    margin-bottom: 5.2rem;
+}
+
+.mb--55
+{
+    margin-bottom: 5.5rem;
+}
+
+.mb--59
+{
+    margin-bottom: 5.955rem;
+}
+
+.mb--72
+{
+    margin-bottom: 7.257rem;
+}
+
+/*--another helper class--*/
+.l-style--none
+{
+    list-style: none;
+}
+
+.text-decor--none
+{
+    text-decoration: none;
+}
+
+.text-align--center
+{
+    text-align: center;
+}
+
+.text-align--end
+{
+    text-align: end;
+}
+
+.wrapper
+{
+    flex-wrap: wrap;
+}
+
+/*--spacing--*/
+.footer__size
+{
+    height: 18px;
+}
+.width--100pc
+{
+    width: 100%;
+}
+
+.height--100pc
+{
+    height: 100%;
+}
+
+.wh--100pc
+{
+    width: 100%;
+    height: 100%;
+}
+
+.width--202
+{
+    width: 20.2rem;
+}
+
+.max-width--470
+{
+    max-width: 47rem;
+}

@@ -1,0 +1,326 @@
+html
+{
+    font-size: 62.5%;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-size: var(--body-text);
+    line-height: 1.25;
+    font-feature-settings: 'clig' off, 'liga' off;
+}
+
+@media (max-width: 335px) {
+    .container
+    {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width: 568px) {
+    .container2
+    {
+        max-width: 411px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) 
+{
+    .container
+    {
+        max-width: 768px;
+    }
+
+    .grid--layout2
+    {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .grid--layout4
+    {
+        grid-template-columns: repeat(2, auto);
+    }
+    .md-flex--row
+    {
+        flex-direction: row;
+    }
+
+    .logo__size
+    {
+        width: 70px;
+        height: 48.311px;
+    }
+    .navbar
+    {
+        top: 6.4rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 797px) 
+{
+    .container
+    {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+
+@media (min-width: 991px)
+{
+    .container
+    {
+        max-width: 991px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .md-gap--75
+    {
+        gap: 7.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root
+    {
+        --heading-ex-large: calc(4 * var(--root-font-size));
+        --heading-large: calc(4 * var(--root-font-size));
+        --heading-medium: calc(4 * var(--root-font-size));
+    }
+
+    .container
+    {
+        max-width: 1180px;
+        margin: 0 1.5rem;
+    }
+
+    .header__padding
+    {
+        padding: 3.5rem 0 3.8rem 0;
+    }
+
+    .footer__padding
+    {
+        padding: 5.1rem 0 4.9rem 0;
+    }
+
+
+    /*--display--*/
+    .lg-d-none
+    {
+        display: none;
+    }
+
+    .lg-d-block
+    {
+        display: block;
+    }
+
+    .lg-j-content--end
+    {
+        justify-content: end;
+    }
+
+    .lg-j-content--sb
+    {
+        justify-content: space-between;
+    }
+
+    .lg-d-flex--row
+    {
+        flex-direction: row;
+    }
+
+    .lg-order--1
+    {
+        order: 1;
+    }
+
+    .lg-a-item--center
+    {
+        align-items: center;
+    }
+
+    /*--gap--*/
+    .lg-gap--30
+    {
+        gap: 3rem;
+    }
+
+    .lg-gap--47
+    {
+        gap: 4.7rem;
+    }
+
+    .lg-gap--55
+    {
+        gap: 5.5rem;
+    }
+
+    .lg-gap--68
+    {
+        gap: 6.8rem;
+    }
+
+    .lg-gap--72
+    {
+        gap: 7.257rem;
+    }
+    
+
+    .lg-gap--120
+    {
+        gap: 12rem;
+    }
+
+    .lg-max-width-600
+    {
+        max-width: 60rem;
+    }
+
+    /*--grid layout--*/
+    .grid--layout2
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid--layout3
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid--layout4
+    {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .partners
+    {
+        margin-bottom: 10.327rem;
+    }
+    
+    .portfolio
+    {
+        padding: 3rem 0 9.9rem 0;
+    }
+    
+    .service
+    {
+        padding: 3.5rem 0 13.5rem 0;
+    }
+
+    .contact
+    {
+        padding: 3rem 0 9.3rem 0;
+    }
+
+
+    .maps-api
+    {
+        max-width: 57.6rem;
+    }
+
+    .cus-input--tarea
+    {
+        height: 7.5rem;
+    }
+
+    /*--spacing--*/
+    .lg-mb--16
+    {
+        margin-bottom: 1.6rem;
+    }
+
+    .lg-mb--45
+    {
+        margin-bottom: 4.5rem;
+    }
+
+    .lg-mb--54
+    {
+        margin-bottom: 5.4rem;
+    }
+
+    .lg-mb--60
+    {
+        margin-bottom: 6rem;
+    }
+
+    .lg-mb--64
+    {
+        margin-bottom: 6.4rem;
+    }
+
+    .lg-mb--67
+    {
+        margin-bottom: 6.7rem;
+    }
+
+    .lg-mb--73
+    {
+        margin-bottom: 7.3rem;
+    }
+
+    .lg-pb--82
+    {
+        padding-bottom: 8.287rem;
+    }
+
+    .lg-card__info
+    {
+        padding: 2rem 2.5rem 1.9rem 2.5rem;
+    }
+
+    .dropdown-menu
+    {
+        display: flex;
+    }
+
+    .navbar
+    {
+        position: static;
+        flex-direction: row;
+        background: transparent;
+        padding: 0;
+        border: none;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .container
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid--layout2
+    {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .xl-mw--1227
+    {
+        max-width: 122.7rem;
+    }
+
+    .xl-gap--105
+    {
+        gap: 10.5rem;
+    }
+
+}

@@ -1,0 +1,126 @@
+.container
+{
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__padding
+{
+    padding: 1.6rem 0;
+}
+
+.footer__padding
+{
+    padding: 3.1rem 0;
+}
+
+.grid--layout1
+{
+    grid-template-columns: auto 1fr;
+}
+
+.grid--layout3
+{
+    grid-template-columns: 1fr;
+}
+
+.grid--layout4
+{
+    grid-template-columns: 1fr;
+}
+
+/*--card--*/
+.card
+{
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    max-width: 27.9rem;
+    border-radius: 0.5rem;
+    box-sizing: unset;
+}
+
+.card__info
+{
+    padding: 2rem 3.9rem 1.9rem 3.8rem;
+    max-width: 20.2rem;
+}
+
+.card__pricing
+{
+    padding: 4.6rem 3rem;
+}
+
+.card__img
+{
+    width: 17.5rem;
+    height: 17.5rem;
+    align-self: center;
+    margin-bottom: 1.9rem;
+}
+
+.partners
+{
+    margin-bottom: 4.013rem;
+}
+
+.portfolio
+{
+    padding: 3.4rem 0 3rem 0;
+}
+
+.service
+{
+    padding: 2.1rem 0 6.8rem 0;
+}
+
+.contact
+{
+    padding: 3.6rem 0 5.9rem 0;
+}
+
+.cus-input
+{
+    border-radius: 0.5rem;
+    border: 1px solid #000;
+    background: #EEE;
+}
+
+.cus-input--text
+{
+    padding: 1.15rem 1rem;
+    height: 3.8rem;
+}
+
+.cus-input--tarea
+{
+    padding: 1.5rem;
+    height: 14.1rem;
+}
+
+
+.logo__size
+{
+    width: 45px;
+    height: 31.057px;
+}
+
+.dropdown-menu
+{
+   display: none;
+}
+
+.dropdown-menu.active
+{
+    display: flex;
+}
+
+.navbar
+{
+    position: absolute;
+    top: 54px;
+    flex-direction: column;
+    background: var(--color-primary-100);
+    padding: 2rem;
+    width: 100%;
+    border:1px solid var(--color-secondary-25);
+}
